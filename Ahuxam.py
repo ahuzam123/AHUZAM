@@ -250,7 +250,7 @@ class __xxx__:
 
         global ok,cp,loop
 
-        sys.stdout.write(f"\r \x1b[1;97m[FARYAL] {loop}|{len(self.id)} \033[1;32m[ok][{len(ok)}] \033[1;31m[cp][{len(cp)}] ")
+        sys.stdout.write(f"\r \x1b[1;97m[AHUZAM] {loop}|{len(self.id)} \033[1;32m[ok][{len(ok)}] \033[1;31m[cp][{len(cp)}] ")
 
         sys.stdout.flush()
 
